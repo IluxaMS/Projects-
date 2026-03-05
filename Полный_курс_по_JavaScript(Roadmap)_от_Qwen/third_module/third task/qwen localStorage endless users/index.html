@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мульти-пользовательская система (localStorage)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Система пользователей</h1>
+
+    <!-- Блок Регистрации -->
+    <div class="section" id="regSection">
+        <h2>Регистрация нового пользователя</h2>
+        <label>Придумайте логин:</label>
+        <input type="text" id="regLogin" placeholder="Логин">
+        
+        <label>Придумайте пароль:</label>
+        <input type="password" id="regPass" placeholder="Пароль">
+        
+        <button onclick="registerUser()">Зарегистрировать</button>
+    </div>
+
+    <!-- Блок Входа -->
+    <div class="section" id="loginSection">
+        <h2>Вход в систему</h2>
+        <label>Введите логин:</label>
+        <input type="text" id="loginInput" placeholder="Логин">
+        
+        <label>Введите пароль:</label>
+        <input type="password" id="passInput" placeholder="Пароль">
+        
+        <button onclick="loginUser()">Войти</button>
+    </div>
+
+    <!-- Блок Личного кабинета (появляется после входа) -->
+    <div class="section hidden" id="profileSection">
+        <h2>Профиль пользователя: <span id="currentUserDisplay"></span></h2>
+        <p>Вы успешно вошли в систему!</p>
+        <select id="messageSelector">
+            <option value="">-- Выберите действие --</option>
+            <option value="profile_info">Мои данные</option>
+            <option value="exit">Выйти</option>
+        </select>
+        <div id="profileOutput" style="margin-top: 10px; font-weight: bold;"></div>
+        <button onclick="logout()" style="margin-top: 10px;">Выйти из аккаунта</button>
+    </div>
+
+    <!-- Блок Админки (просмотр всех пользователей) -->
+    <div class="section">
+        <h2>База данных пользователей</h2>
+        <p>Здесь хранятся все зарегистрированные пользователи (массив в localStorage).</p>
+        <button onclick="showAllUsers()">Обновить список всех пользователей</button>
+        <div id="logArea">Нажмите кнопку выше, чтобы увидеть базу...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

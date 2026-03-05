@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="login" style="display: block;">
+        <h3>Введите никнейм:</h3>
+        <input type="text" class="input_login">
+        <h3>Введите пароль:</h3>
+        <input type="password" class="input_password">
+    </form>
+    <form class="registration" style="display: none;">
+        <h3>Придумайте никнейм:</h3>
+        <input type="text" class="registration_login">
+        <h3>Придумайте пароль:</h3>
+        <input type="password" class="registration_password">
+        <h3>Напишите email:</h3>
+        <input type="email" class="registration_email">
+    </form>
+    <div class="main_html" style="display: none;">
+        <h1 class="h1_main">Главная страница</h1>
+        <select name="" class="messageSelector">
+            <option value="" class="name_profile"></option>
+            <option value="profile">Посмотреть данные профиля</option>
+            <option value="exit">Выйти из профиля</option>
+        </select>
+    </div>
+    <div class="profile_html" style="display: none;">
+        <h2>Данные профиля:</h2>
+        <h3 class="profile_content"></h3>
+        <button type="button" class="button_back" style="display: none;">Назад</button>
+    </div>
+    <form class="choice">
+        <button type="button" class="button_login" style="display: none;">Вход</button>
+        <button type="button" class="button_registration" style="display: block;">Регистрация</button>
+        <button type="button" class="button_save" style="display: none;">Сохранить</button>
+        <button type="button" class="checking_entered_data" style="display: block;">Войти</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

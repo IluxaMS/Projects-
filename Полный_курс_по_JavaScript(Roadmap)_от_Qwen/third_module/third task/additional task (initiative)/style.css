@@ -1,0 +1,176 @@
+/* HTML-страница входа */
+.login {
+    display: flex;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 13%;
+}
+
+/* HTML-страница регистрации */
+.registration {
+    display: flex;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 13%;
+}
+
+/* Кнопки */
+button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 213, 98);
+    border-color: rgb(255, 213, 98);
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 7px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    gap: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.button_back { /* Кнопка "Назад" */
+    display: block;
+    margin: 20px auto 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 213, 98);
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* Поля для ввода данных на странице регистрации */
+.registration_login {
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 5px;
+    background-color: rgb(255, 213, 98);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 13%;
+}
+
+.registration_password {
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 5px;
+    background-color: rgb(255, 213, 98);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 13%;
+}
+
+.registration_email {
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 5px;
+    background-color: rgb(255, 213, 98);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 13%;
+}
+
+/* Поля для ввода данных на странице входа */
+.input_login {
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 5px;
+    background-color: rgb(255, 213, 98);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 11%;
+}
+
+.input_password {
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 5px;
+    background-color: rgb(255, 213, 98);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 11%;
+}
+
+/* Главная HTML-страница */
+.main_html {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 85%;
+    height: 40em;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    background-color: rgb(255, 114, 114);
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Слово "Главная" */
+.h1_main {
+    margin-top: 17%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Выпадающий список с вариантами выбора */
+select {
+    position: absolute; 
+    top: 20px;
+    right: 20px;
+    background-color: rgb(255, 213, 98);
+    border: none;
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* Сами варианты */
+option {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* HTML-страница профиля */
+.profile_html {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 35%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+    background-color: rgb(119, 255, 114);
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* Перенос строк исходя из того, что написано в JS: */
+.profile_content {
+    white-space: pre-line;
+}

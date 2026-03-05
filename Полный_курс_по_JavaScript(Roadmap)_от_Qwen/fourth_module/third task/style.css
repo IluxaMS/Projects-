@@ -1,0 +1,62 @@
+.registration {
+    display: flex;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 13%;
+}
+
+/* Кнопки */
+button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 213, 98);
+    border-color: rgb(255, 213, 98);
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 7px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    gap: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* Поля для ввода данных на странице регистрации */
+.registration_login {
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 5px;
+    background-color: rgb(255, 213, 98);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 13%;
+}
+
+.registration_password {
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 5px;
+    background-color: rgb(255, 213, 98);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 13%;
+}
+
+.registration_email {
+    box-shadow: 2px 2px 2px #000;
+    border-radius: 5px;
+    background-color: rgb(255, 213, 98);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 13%;
+}
