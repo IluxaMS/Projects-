@@ -1,0 +1,255 @@
+[user@quaylede ~]$ sudo pacman -S nftables git base-devel
+warning: nftables-1:1.1.6-3 is up to date -- reinstalling
+warning: git-2.53.0-1 is up to date -- reinstalling
+warning: base-devel-1-2 is up to date -- reinstalling
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (3) base-devel-1-2  git-2.53.0-1  nftables-1:1.1.6-3
+
+Total Installed Size:  30.83 MiB
+Net Upgrade Size:       0.00 MiB
+
+:: Proceed with installation? [Y/n] y
+(3/3) checking keys in keyring                                                  [##############################################] 100%
+(3/3) checking package integrity                                                [##############################################] 100%
+(3/3) loading package files                                                     [##############################################] 100%
+(3/3) checking for file conflicts                                               [##############################################] 100%
+(3/3) checking available disk space                                             [##############################################] 100%
+:: Processing package changes...
+(1/3) reinstalling nftables                                                     [##############################################] 100%
+(2/3) reinstalling git                                                          [##############################################] 100%
+(3/3) reinstalling base-devel                                                   [##############################################] 100%
+:: Running post-transaction hooks...
+(1/4) Creating system user accounts...
+(2/4) Reloading system manager configuration...
+(3/4) Restarting marked services...
+(4/4) Arming ConditionNeedsUpdate...
+[user@quaylede ~]$ nft --version
+nftables v1.1.6 (Commodore Bullmoose #7)
+[user@quaylede ~]$ ^C
+[user@quaylede ~]$ git clone https://github.com/Sergeydigl3/zapret-discord-youtube-linux.git
+Cloning into 'zapret-discord-youtube-linux'...
+remote: Enumerating objects: 718, done.
+remote: Counting objects: 100% (241/241), done.
+remote: Compressing objects: 100% (124/124), done.
+^Cceiving objects:   9% (68/718), 4.61 MiB | 619.00 KiB/s
+[user@quaylede ~]$ git clone https://github.com/Sergeydigl3/zapret-discord-youtube-linux.git
+Cloning into 'zapret-discord-youtube-linux'...
+remote: Enumerating objects: 718, done.
+remote: Counting objects: 100% (241/241), done.
+remote: Compressing objects: 100% (123/123), done.
+remote: Total 718 (delta 160), reused 132 (delta 118), pack-reused 477 (from 2)
+Receiving objects: 100% (718/718), 11.68 MiB | 612.00 KiB/s, done.
+Resolving deltas: 100% (351/351), done.
+[user@quaylede ~]$ cd zapret-discord-youtube-linux
+[user@quaylede zapret-discord-youtube-linux]$ ./service.sh download-deps --default
+Загрузка зависимостей (рекомендованные версии)
+
+
+Загрузка nfqws (version: v72.9)...
+[2026-03-09 17:38:33] Скачивание nfqws (версия: v72.9)...
+[2026-03-09 17:38:33] Определена платформа: linux-x86_64
+[2026-03-09 17:38:33] Используется версия релиза: v72.9
+[2026-03-09 17:38:33] Скачивание zapret: https://github.com/bol-van/zapret/releases/download/v72.9/zapret-v72.9.tar.gz
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+100  7.52M 100  7.52M   0      0  3.69M      0   00:02   00:02          3.68M
+[2026-03-09 17:38:35] Извлечение архива zapret...
+[2026-03-09 17:38:35] Бинарник сохранён: /home/user/zapret-discord-youtube-linux/nfqws
+[2026-03-09 17:38:35] Бинарник nfqws успешно загружен
+
+Загрузка стратегий (version: cb9aed09449e1c51a9108c7989717c7c98a14301)...
+[2026-03-09 17:38:35] Клонирование репозитория (версия: cb9aed09449e1c51a9108c7989717c7c98a14301)...
+Cloning into '/home/user/zapret-discord-youtube-linux/zapret-latest'...
+remote: Enumerating objects: 1942, done.
+remote: Counting objects: 100% (159/159), done.
+remote: Compressing objects: 100% (71/71), done.
+remote: Total 1942 (delta 146), reused 88 (delta 88), pack-reused 1783 (from 3)
+Receiving objects: 100% (1942/1942), 4.57 MiB | 460.00 KiB/s, done.
+Resolving deltas: 100% (1245/1245), done.
+Note: switching to 'cb9aed09449e1c51a9108c7989717c7c98a14301'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at cb9aed0 new telegram hosts
+Переименовано: 'general (ALT8).bat' -> 'general_alt8.bat'
+Переименовано: 'general (ALT3).bat' -> 'general_alt3.bat'
+Переименовано: 'general (FAKE TLS AUTO).bat' -> 'general_fake_tls_auto.bat'
+Переименовано: 'general (ALT4).bat' -> 'general_alt4.bat'
+Переименовано: 'general (FAKE TLS AUTO ALT).bat' -> 'general_fake_tls_auto_alt.bat'
+Переименовано: 'general (SIMPLE FAKE).bat' -> 'general_simple_fake.bat'
+Переименовано: 'general (ALT10).bat' -> 'general_alt10.bat'
+Переименовано: 'general (ALT).bat' -> 'general_alt.bat'
+Переименовано: 'general (FAKE TLS AUTO ALT3).bat' -> 'general_fake_tls_auto_alt3.bat'
+Переименовано: 'general (ALT7).bat' -> 'general_alt7.bat'
+Переименовано: 'general (ALT5).bat' -> 'general_alt5.bat'
+Переименовано: 'general (ALT11).bat' -> 'general_alt11.bat'
+Переименовано: 'general (ALT6).bat' -> 'general_alt6.bat'
+Переименовано: 'general (FAKE TLS AUTO ALT2).bat' -> 'general_fake_tls_auto_alt2.bat'
+Переименовано: 'general (ALT9).bat' -> 'general_alt9.bat'
+Переименовано: 'general (ALT2).bat' -> 'general_alt2.bat'
+Переименовано: 'general (SIMPLE FAKE ALT).bat' -> 'general_simple_fake_alt.bat'
+Переименовано: 'general (SIMPLE FAKE ALT2).bat' -> 'general_simple_fake_alt2.bat'
+
+Зависимости успешно загружены.
+[user@quaylede zapret-discord-youtube-linux]$ ./service.sh setup-permissions
+Настройка NOPASSWD для user...
+
+Настройка sudoers для user...
+
+Будет создан /etc/sudoers.d/zapret:
+─────────────────────────────────────────
+# Zapret Discord YouTube - NOPASSWD для user
+# Файл: /etc/sudoers.d/zapret
+
+user ALL=(root) NOPASSWD: /usr/bin/nft *
+user ALL=(root) NOPASSWD: /home/user/zapret-discord-youtube-linux/nfqws *
+user ALL=(root) NOPASSWD: /usr/bin/pkill -f nfqws
+─────────────────────────────────────────
+
+Создать? [Y/n]: y
+/etc/sudoers.d/zapret: parsed OK
+Готово: /etc/sudoers.d/zapret
+[user@quaylede zapret-discord-youtube-linux]$ ./auto_tune_youtube.sh
+
+╔════════════════════════════════════════════════════════════╗
+║     🔧 Auto Tune для zapret-youtube                        ║
+╚════════════════════════════════════════════════════════════╝
+
+  📋 Найдено стратегий: 21
+
+Проверяем доступность YouTube без zapret...
+Проверяем YouTube (TLS 1.3):
+  youtube.com... ✗
+
+YouTube недоступен. Тестируем стратегии...
+
+[2026-03-09 17:39:08] Остановка nfqws...
+[2026-03-09 17:39:08] Очистка правил nftables...
+[2026-03-09 17:39:08] Очистка завершена.
+  [ 1/21] general_alt10.bat                        YT:✓ CDN:✓
+  [ 2/21] general_alt11.bat                        YT:✓ CDN:✓
+  [ 3/21] general_alt2.bat                         YT:✗
+  [ 4/21] general_alt3.bat                         YT:✓ CDN:✓
+  [ 5/21] general_alt4.bat                         YT:✗
+  [ 6/21] general_alt5.bat                         YT:✓ CDN:✓
+  [ 7/21] general_alt6.bat                         YT:✗
+  [ 8/21] general_alt7.bat                         YT:✗
+  [ 9/21] general_alt8.bat                         YT:✗
+  [10/21] general_alt9.bat                         YT:✓ CDN:✓
+  [11/21] general_alt.bat                          YT:✓ CDN:✓
+  [12/21] general.bat                              YT:✗
+  [13/21] general_fake_tls_auto_alt2.bat           YT:✗
+  [14/21] general_fake_tls_auto_alt3.bat           YT:✓ CDN:✓
+  [15/21] general_fake_tls_auto_alt.bat            YT:✗
+  [16/21] general_fake_tls_auto.bat                YT:✓ CDN:✓
+  [17/21] general_nix1.bat                         YT:✗
+  [18/21] general_simple_fake_alt2.bat             YT:✓ CDN:✓
+  [19/21] general_simple_fake_alt.bat              YT:✗
+  [20/21] general_simple_fake.bat                  YT:✓ CDN:✓
+  [21/21] general_SIMPLE_FAKE.bat                  YT:✓ CDN:✓
+
+Завершено!
+
+
+╔════════════════════════════════════════════════════════════╗
+║                    РЕЗУЛЬТАТЫ ТЕСТА                        ║
+╚════════════════════════════════════════════════════════════╝
+
+Дата: 2026-03-09 17:41:00
+Протестировано: 21 из 21
+Проверка: TCP (TLS 1.3)
+
+✓ Работают:     11
+✗ Не работают:  10
+
+
+────────────────────────────────────────────────────────────────
+Рабочие стратегии:
+────────────────────────────────────────────────────────────────
+  №  Стратегия                       Статус
+────────────────────────────────────────────────────────────────
+  [1 ] general_alt10.bat                        YT:✓ CDN:✓
+  [2 ] general_alt11.bat                        YT:✓ CDN:✓
+  [4 ] general_alt3.bat                         YT:✓ CDN:✓
+  [6 ] general_alt5.bat                         YT:✓ CDN:✓
+  [10] general_alt9.bat                         YT:✓ CDN:✓
+  [11] general_alt.bat                          YT:✓ CDN:✓
+  [14] general_fake_tls_auto_alt3.bat           YT:✓ CDN:✓
+  [16] general_fake_tls_auto.bat                YT:✓ CDN:✓
+  [18] general_simple_fake_alt2.bat             YT:✓ CDN:✓
+  [20] general_simple_fake.bat                  YT:✓ CDN:✓
+  [21] general_SIMPLE_FAKE.bat                  YT:✓ CDN:✓
+────────────────────────────────────────────────────────────────
+
+Результаты сохранены в: /home/user/zapret-discord-youtube-linux/auto_tune_youtube_results.txt
+
+s + номер - сохранить в conf.env
+номер - запустить main с выбранной стратегией
+Enter - выход
+
+> 10
+
+🚀 Запускаем стратегию [10] general_alt9.bat...
+Запуск с параметрами: strategy=general_alt9.bat, interface=any, gamefilter=false
+[2026-03-09 17:42:25] GameFilter выключен
+[2026-03-09 17:42:25] Настройка nftables...
+[2026-03-09 17:42:25] Настройка nftables завершена (TCP: 80,443,2053,2083,2087,2096,8443, UDP: 443,19294-19344,50000-50100)
+[2026-03-09 17:42:25] Запуск процесса nfqws...
+github version v72.9 (c849e55ef0f1c244206f5a05ff7b1ab41a3824ee)
+
+we have 8 user defined desync profile(s) and default low priority profile 0
+Loading hostlist lists/list-google.txt
+loading plain text list
+Loaded 17 hosts from lists/list-google.txt
+Loading hostlist lists/list-exclude-user.txt
+loading plain text list
+Loaded 0 hosts from lists/list-exclude-user.txt
+Loading hostlist lists/list-exclude.txt
+loading plain text list
+Loaded 35 hosts from lists/list-exclude.txt
+Loading hostlist lists/list-general-user.txt
+loading plain text list
+Loaded 0 hosts from lists/list-general-user.txt
+Loading hostlist lists/list-general.txt
+loading plain text list
+Loaded 47 hosts from lists/list-general.txt
+Loading ipset lists/ipset-all.txt
+loading plain text list
+Loaded 1 ip/subnets from lists/ipset-all.txt
+Loading ipset lists/ipset-exclude-user.txt
+loading plain text list
+Loaded 0 ip/subnets from lists/ipset-exclude-user.txt
+Loading ipset lists/ipset-exclude.txt
+loading plain text list
+Loaded 11 ip/subnets from lists/ipset-exclude.txt
+Running as UID=2147483647 GID=2147483647
+opening library handle
+unbinding existing nf_queue handler for AF_INET (if any)
+binding nfnetlink_queue as nf_queue handler for AF_INET
+binding this socket to queue '220'
+setting copy_packet mode
+initializing raw sockets bind-fix4=0 bind-fix6=0
+[2026-03-09 17:42:25] Настройка успешно завершена
+
+zapret запущен. Нажмите Ctrl+C для завершения...
+^C[2026-03-09 21:54:21] Остановка nfqws...
+[2026-03-09 21:54:21] Очистка правил nftables...
+[2026-03-09 21:54:21] Очистка завершена.
+
+[user@quaylede zapret-discord-youtube-linux]$ 
