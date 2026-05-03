@@ -1,1 +1,0 @@
-smartHomeHub.kitchen = "lamp";
