@@ -1,0 +1,1 @@
+smartHomeHub.kitchen = "lamp";
