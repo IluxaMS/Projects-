@@ -1,0 +1,79 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  padding: 100px 100px 50vh;
+  height: 100%;
+}
+
+.transition {
+  height: 100%;
+}
+
+.button {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  background-color: #555;
+}
+
+.block {
+  width: 10px;
+  height: 150px;
+}
+
+.red {
+  background-color: rgb(221, 108, 108);
+}
+.blue {
+  background-color: rgb(116, 108, 221);
+}
+.orange {
+  background-color: rgb(221, 163, 108);
+}
+.purple {
+  background-color: rgb(166, 108, 221);
+}
+
+.transition:hover .block {
+  width: 100%;
+}
+
+/* ----------------------------------------------------- */
+
+.button {
+  /* transition: border-radius 3s, background-color 3s 3s; */
+
+  transition-duration: 3s, 3s;
+  transition-property: border-radius, background-color;
+  transition-delay: 0s, 3s;
+  /* transition-timing-function: ; */
+}
+
+.button:hover {
+  background-color: rgb(108, 158, 106);
+  border-radius: 100px;
+}
+
+.block {
+  transition: 1s;
+}
+
+.red {
+  transition-timing-function: ease;
+}
+.blue {
+  transition-timing-function: ease-in;
+}
+.orange {
+  transition-timing-function: ease-out;
+}
+.purple {
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}

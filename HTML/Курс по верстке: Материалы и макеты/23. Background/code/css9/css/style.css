@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.block {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  border-radius: 5px;
+}
+
+/* -------------------------------------------------------- */
+
+.block {
+  /* background: rgb(125, 200, 103); */
+  /* background: linear-gradient(#7dc867, #cf5e5e 20%, #7dc867 70%); */
+  /* background: radial-gradient(#7dc867, #cf5e5e); */
+  background: url("../images/dog.jpg") 0 0 / auto no-repeat, url("../images/laptop.jpg") 0% 0 / auto 300px no-repeat, url("../images/laptop.jpg") 20% 0 / auto 300px no-repeat, #333;
+
+
+  /* background-color: #fff; */
+  /* background-image: url(); */
+  /* background-repeat: space; */
+  /* background-position: x y; */
+  /* background-attachment: scroll; */
+  /* background-size: auto; */
+}
