@@ -1,0 +1,43 @@
+/* h1 {
+  color: green;
+}
+
+h1 {
+  color: blue;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+h1 {
+  color: red;
+} */
+
+/* ----------------------------- */
+
+/* #block {
+  color: orange;
+}
+
+.block {
+  color: green;
+}
+
+[class] {
+  color: blue;
+}
+
+h1 {
+  color: red !important;
+} */
+
+/* ----------------------------- */
+
+h1.block {
+  color: red;
+}
+
+.block {
+  color: orange;
+}
