@@ -1,0 +1,99 @@
+.content-1__block {
+    box-sizing: border-box; /* если width 600, то он реально 600 вместе с padding(если есть) */
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/* ERROR - не использовать padding и margin с inline элементами */
+.content-1__inline {
+    /* padding: 50px; */ /* отступает только в начале */
+    margin: 50px; /* не понятно как отступает */
+}
+
+.content-1__image {
+    /* padding: 50px; */ /* изображение будет 200px на 200px, не смотря на то что мы указали width: 300px(box-sizing тут не причём) */
+    margin: 50px; /* изображение будет 300px на 300px здесь margin сохраняет своё свойство, здесь всё хорошо */
+    width: 300px;
+}
+
+.content-2__block {
+    /* width: 500px; */ /* текст будет 500px, а сам элемент будет до конца, так как он строчный */
+    /* height: 200px; */ /* не нужно указывать высоту меньше, чем контент внутри элемента, так как всё начнёт ломаться */
+    min-width: 300px; /* сработает при уменьщение вьюпорта - когда будет меньше 300px, то текст внутри элемента перестанет уменьшаться */
+    max-width: 700px; /* максимальная ширина */
+    min-height: 300px;
+    max-height: 250px; /* если сильно сжать вьюпорт, то контент может вырваться наружу, не смотря на ограничение */
+}
+
+.content-2__inline {
+    width: 500px; /* на inline элементах, как и padding с margin, это свойство не работает */
+    height: 500px; /* на inline элементах это свойство тоже не работает */
+    min-width: 300px; /* на inline элементах это свойство тоже не работает */
+    max-width: 700px; /* на inline элементах это свойство тоже не работает */
+    min-height: 300px;
+    max-height: 250px;
+}
+
+.content-2__image {
+    width: 500px; /* если ширину изображения мы укажем больше, чем его размер по дефолту, то и ширина и высота(так как по дефолту width и height = auto, следовательно, если мы меняем width, то меняется и height, и наоборот) изображения увеличатся */
+    min-width: 400px; /* то же самое и здесь */
+    max-width: 700px; /* если минимальную ширину изображения мы укажем меньше, чем его размер по дефолту, то изображение уменьшится */
+}
+
+.content-3__block {
+    width: 400px;
+    height: 45px;
+    background-color: rgb(128, 178, 223);
+    /* overflow: hidden; */ /* со значением hidden, весь лишний текст, который не помещается в заданные нами размеры, отсекается. По умолчанию значение visible */
+    /* overflow: auto; */ /* со значением auto, если у нас есть контент, который не поместился в заданные нами размеры, то добавляется scroll-bar для просмотра этого самого контента, который не поместился */
+    overflow: scroll; /* со значением scroll у нас принудительно появляется scroll-bar, даже если контент помещается в заданные нами размеры */
+}
+
+.content-4__block {
+    display: inline;
+    padding-right: 150px;
+}
+
+.content-4__inline {
+    display: block;
+    padding-right: 150px;
+}
+
+.content-4__image {
+    display: block;
+}
+
+.blue-square {
+    width: 300px;
+    height: 300px;
+    background-color: #3cb1ff;
+    display: inline-block;
+}
+
+.content-5__block {
+    margin: 50px;
+    border: 1px solid #000;
+    border-width: 5px;
+    border-top: 10px dotted #5334ff;
+    border-right: 8px groove #57ffb9;
+    border-bottom: 6px dashed #c52d2d;
+    border-left: 4px double #829100;
+    /* border-style: dashed;
+    border-color: #f19c3a; */
+    /* box-shadow: inset 2px 2px 6px #000; */
+    box-shadow: 0 0 0 5px #e73636, 0 0 0 10px #36e78f, 0 0 0 15px #fffc30;
+}
+
+.content-5__inline {
+    box-shadow: 7px 7px 20px #333;
+    /* opacity: 0.1; */ /* прозрачность */
+    visibility: hidden;  /* с данным значением мы полностью скрываем элемент, мы даже не можем его иследовать */
+}

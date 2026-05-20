@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Antipasto Pro";
+    font-weight: 400;
+    font-style: normal;
+    src: local("Antipasto Pro Regular"),
+        local("AntipastoPro-Regular"),
+        url("AntipastoPro/Antipasto-Pro-Regular-trial.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Antipasto Pro";
+    font-weight: 800;
+    font-style: normal;
+    src: local("Antipasto Pro ExtraBold"),
+        local("AntipastoPro-ExtraBold"),
+        url("AntipastoPro/Antipasto-Pro-ExtraBold-trial.woff2") format("woff2");
+    font-display: swap;
+}
+
+p {
+    font-family: "Kablammo", system-ui;
+    font-size: 2em;
+    text-align: center;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF"0;
+}
+
+p {
+    font-family: Antipasto Pro, sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Homework for modules 21, 22</title>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <source media="(max-width: 900px)" srcset="logo for mobile device.png"> <!-- изображение логотипа для мобильных устройств -->
+            <img src="logo for mobile device.ico" alt="Логотип"> <!-- изображение логотипа -->
+        </picture>
+        <div>Monolith</div> <!-- название бюро -->
+        <nav> <!-- навигационное меню с якорными ссылками, ведущими к разделам страницы-->
+            <ul>
+                <li>
+                    <a href="#our-projects">Наши проекты</a>
+                </li>
+                <li>
+                    <a href="#services">Услуги</a>
+                </li>
+                <li>
+                    <a href="#about-us">О нас</a>
+                </li>
+                <li>
+                    <a href="#contacts-and-form">Контакты и Форма</a> <!-- элемент взаимодействия (ссылка), ведущий к форме обратной связи -->
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="visual-accent"> <!-- визуальный акцент(выделил на странице бордером) -->
+            <h1>Monolith - извлекаем эстетику из камня</h1> <!-- крупный заголовок с названием бюро и слоганом -->
+            <p>Наша философия: Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Путь
+                взгляд не заглавных реторический</p> <!-- краткое описание философии компании(просто рыбный текст) -->
+        </div>
+        <section id="our-projects">
+            <h2 class="our-projects__title">Наши проекты:</h2> <!-- заголовок раздела -->
+            <article class="our-projects__first-project"> <!-- карточка первого проекта -->
+                <figure>
+                    <picture>
+                        <source media="(max-width: 900px)" srcset="image of the project1 for mobile devices.png"> <!-- изображение проекта для мобильных устройств -->
+                        <img src="image of the project1 for mobile devices.ico" alt="Изображение проекта"> <!-- изображение проекта -->
+                    </picture>
+                    <figcaption>
+                        Вилла «Отражение» <!-- название проекта -->
+                    </figcaption>
+                </figure>
+                <p>Сочи, Красная Поляна | 450 м²</p> <!-- краткое описание параметров -->
+                <button type="button">Смотреть интерьеры</button> <!-- элемент действия(кнопка) -->
+            </article>
+            <article class="our-projects__second-project"> <!-- карточка второго проекта -->
+                <figure>
+                    <picture>
+                        <source media="(max-width: 900px)" srcset="image of the project2 for mobile devices.png"> <!-- изображение проекта для мобильных устройств -->
+                        <img src="image of the project2 for mobile devices.ico" alt="Изображение проекта"> <!-- изображение проекта -->
+                    </picture>
+                    <figcaption>
+                        Бизнес-центр «Брутал» <!-- название проекта -->
+                    </figcaption>
+                </figure>
+                <p>Москва, Сити | 12 500 м²</p> <!-- краткое описание параметров -->
+                <button type="button">Презентация объекта</button> <!-- элемент действия(кнопка) -->
+            </article>
+            <article class="our-projects__third-project"> <!-- карточка первого проекта -->
+                <figure>
+                    <picture>
+                        <source media="(max-width: 900px)" srcset="image of the project3 for mobile devices.png"> <!-- изображение проекта для мобильных устройств -->
+                        <img src="image of the project3 for mobile devices.ico" alt="Изображение проекта"> <!-- изображение проекта -->
+                    </picture>
+                    <figcaption>
+                        Культурный хаб «Скала» <!-- название проекта -->
+                    </figcaption>
+                </figure>
+                <p>Санкт-Петербург, Порт | 3 200 м²</p> <!-- краткое описание параметров -->
+                <button type="button">Смотреть интерьеры</button> <!-- элемент действия(кнопка) -->
+            </article>
+        </section>
+        <section id="services">
+            <h2>Услуги:</h2> <!-- заголовок раздела -->
+            <dl> <!-- перечень услуг, оформленный в виде пар «Название услуги» — «Описание услуги» -->
+                <dt>Архитектурное проектирование:</dt>
+                <dd>Разработка концепций, планов и фасадов жилых и коммерческих зданий с акцентом на монолитные формы
+                </dd>
+                <dt>Дизайн интерьеров:</dt>
+                <dd>Создание минималистичных и функциональных внутренних пространств, гармонирующих с общей архитектурой
+                    объекта</dd>
+                <dt>Проектирование загородных резиденций:</dt>
+                <dd>Создание индивидуальных проектов премиальных вилл и усадеб с учетом ландшафтных особенностей участка
+                </dd>
+            </dl>
+        </section>
+        <section id="about-us">
+            <h2>О нас:</h2> <!-- заголовок раздела -->
+            <p class="about-us__company-history"> <!-- текстовый блок с историей компании -->
+                Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Цитата:
+                <q>Далеко-далеко за словесными горами в стране.</q> <!-- короткая цитата, встроенная в предложение --> Его ты строчка
+                семантика, переулка диких агентство злых вдали букв своих, даже буквенных проектах по всей! Это снова
+                строчка то лучше.
+            </p>
+            <blockquote class="about-us__long-quote"> <!-- длинная оформленная цитата отдельным блоком -->
+                Цитата из книги: Далеко-далеко за словесными <mark>горами</mark> <!-- одно ключевое слово, которое визуально выделено --> в стране гласных и согласных живут
+                рыбные тексты. Рекламных залетают
+                это ipsum власти! Коварных продолжил свою даль путь скатился обеспечивает оксмокс, журчит дороге,
+                переписывается реторический залетают семантика
+            </blockquote>
+            <figure>
+                <picture>
+                    <source media="(max-width: 900px)" srcset="team photo for mobile devices.png"> <!-- фотография команды для мобильных устройств-->
+                    <img src="team photo.ico" alt="Фотография нашей команды"> <!-- фотография команды -->
+                </picture>
+                <figcaption> <!-- подпись к фотографии -->
+                    Наша команда
+                </figcaption>
+            </figure>
+        </section>
+        <aside id="contacts-and-form">
+            <h2 id="contacts-and-form__title">Контакты и Форма:</h2> <!-- заголовок раздела -->
+            <address>Ул. 50 лет ВЛКСМ д. 115</address> <!-- физический адрес -->
+            <a href="tel:+7999999999">+7 (999) 999 999</a> <!-- телефон -->
+            <a href="mailto:">monolith@mail.ru</a> <!-- email -->
+            <form> <!-- форма обратной связи, -->
+                <fieldset>
+                    <legend>Форма обратной связи</legend>
+                    <label>
+                        Введите имя:
+                        <input type="text"> <!-- поле для ввода имени -->
+                    </label>
+                    <label>
+                        Введите email:
+                        <input type="email"> <!-- поле для ввода email -->
+                    </label>
+                    <label>
+                        Введите номер телефона:
+                        <input type="tel"> <!-- поле для ввода номера телефона -->
+                    </label>
+                    <label>
+                        Выберите тип услуги:
+                        <input type="search" list="type-of-service"> <!-- выпадающий список для выбора типа услуги -->
+                        <datalist id="type-of-service"> <!-- сам список типа услуг -->
+                            <option value="Архитектурное проектирование"></option>
+                            <option value="Дизайн интерьеров"></option>
+                            <option value="Проектирование загородных резиденций"></option>
+                        </datalist>
+                    </label>
+                    <label>
+                        Поле для сообщения:
+                        <textarea cols="25" rows="10"></textarea> <!-- многострочное поле для сообщения -->
+                    </label>
+                    <label>
+                        Подтвердите обработку персональных данных:
+                        <input type="checkbox"> <!-- поле для подтверждения -->
+                    </label>
+                </fieldset>
+                <button type="submit">Отправить форму</button> <!-- кнопка отправки формы -->
+            </form>
+        </aside>
+    </main>
+    <footer>
+        <p>© 2026 Monolith. Все права защищены</p> <!-- информация об авторских правах -->
+        <ol> <!-- ссылки на внешние ресурсы -->
+            <li class="external-resource">
+                <a href="http://google.com" target="_blank">Ссылка на внешний ресурс 1</a>
+            </li>
+            <li class="external-resource">
+                <a href="http://google.com" target="_blank">Ссылка на внешний ресурс 2</a>
+            </li>
+            <li class="external-resource">
+                <a href="http://google.com" target="_blank">Ссылка на внешний ресурс 3</a>
+            </li>
+        </ol>
+    </footer>
+</body>
+
+</html>
